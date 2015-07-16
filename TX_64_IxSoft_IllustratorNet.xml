@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxProtectorNet xmlns:wibu="http://wibu.com/2008/AxpnetControlFile/1.0">
+  <CommandLine>
+    <Command>-ci</Command>
+    <Command>-cml0</Command>
+    <Command>-wu0</Command>
+    <Command>-we0</Command>
+    <Command>-eac</Command>
+    <Command>-eec</Command>
+    <Command>-eui</Command>
+    <Command>-emc</Command>
+    <Command>-ui</Command>
+    <Command>-#</Command>
+    <Command>-o:"M:\ReleaseCodeMeter64\TX_IllustratorNet.dll"</Command>
+    <Command>"M:\Release64\TX_IllustratorNet.dll"</Command>
+  </CommandLine>
+  <Wupi>
+    <LicenseList Index="1" Name="1">
+      <License>1-1</License>
+    </LicenseList>
+    <License Name="1-1">
+      <Type>CodeMeterAct</Type>
+      <FirmCode>5010</FirmCode>
+      <ProductCode>1001</ProductCode>
+      <FeatureCode>0</FeatureCode>
+      <MinimumFirmwareVersion>1.14</MinimumFirmwareVersion>
+      <UserData>none</UserData>
+      <MinimumDriverVersion>4.20</MinimumDriverVersion>
+      <Access>StationShare</Access>
+      <SubSystem>LocalLanWan</SubSystem>
+    </License>
+    <Namespace Name="" Encryption="true" LicenseList="1">
+    </Namespace>
+   
+  </Wupi>
+</AxProtectorNet>

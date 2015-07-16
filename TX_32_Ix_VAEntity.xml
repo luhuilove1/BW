@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxProtectorNet xmlns:wibu="http://wibu.com/2008/AxpnetControlFile/1.0">
+  <CommandLine>
+    <Command>-ci</Command>
+    <Command>-cml10</Command>
+    <Command>-wu0</Command>
+    <Command>-we0</Command>
+    <Command>-eac</Command>
+    <Command>-eec</Command>
+    <Command>-eui</Command>
+    <Command>-emc</Command>
+    <Command>-ui</Command>
+    <Command>-#</Command>
+    <Command>-o:"M:\ReleaseCodeMeter32\TX_VAEntity.dll"</Command>
+    <Command>"M:\ReleaseXencode32\TX_VAEntity.dll"</Command>
+  </CommandLine>
+  <Wupi>
+    <LicenseList Index="1" Name="1">
+      <License>1-1</License>
+    </LicenseList>
+    <License Name="1-1">
+      <Type>CodeMeter</Type>
+      <FirmCode>101730</FirmCode>
+      <ProductCode>1001</ProductCode>
+      <FeatureCode>0</FeatureCode>
+      <MinimumFirmwareVersion>1.0</MinimumFirmwareVersion>
+      <UserData>none</UserData>
+      <MinimumDriverVersion>3.30</MinimumDriverVersion>
+      <Access>StationShare</Access>
+      <SubSystem>LocalLan</SubSystem>
+    </License>
+    <Namespace Name="MTL_Math" Encryption="true" LicenseList="1">
+    </Namespace>
+    <Namespace Name="TX_TOOLBOX.Command" Encryption="true" LicenseList="1">
+    </Namespace>
+    <Namespace Name="TX_TOOLBOX" Encryption="true" LicenseList="1">
+    </Namespace>
+  </Wupi>
+</AxProtectorNet>

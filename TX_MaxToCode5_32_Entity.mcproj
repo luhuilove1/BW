@@ -1,0 +1,79 @@
+[Version]=3.0
+[SaveDirectory]=M:\ReleaseCodeMeter32
+[RuntimeName]=TX_Design.dll
+[RunBat]=
+
+[Encrypt All Method]=1
+[Runtime Libaray Combination]=0
+[Encrypt User Strings]=0
+[Encrypt Blob Heap]=1
+[Encrypt Managed Resources]=1
+[Encrypt New Methods]=0
+[Anti ILdasm]=1
+[Support Windows64 Bit]=0
+[Visual Studio 2008]=1
+
+[AssemblyName]=Auto,No,M:\ReleaseXencode32\TX_TOOLBOX.dll,[%SavePath%]
+[AssemblyName]=Auto,No,M:\ReleaseXencode32\TX_VAEntity.dll,[%SavePath%]
+[AssemblyName]=Auto,No,M:\ReleaseXencode32\TX_VBEntity.dll,[%SavePath%]
+
+--------------------------------------------------
+[StrongName]=
+[SNPassword]=
+[StrongNameAll]=0
+[Web_Optimize]=0
+[Web_UnloadRuntime]=0
+[Web_SaveDirectory]=
+[Web_SaveDefault]=0
+[License_Enabled]=0
+[License_Type]=1
+[License_Days]=
+[License_RunCounts]=
+[License_DateStart]=2006-12-21
+[License_DateEnd]=2006-12-21
+[License_TrialAlert]=0
+[License_TrialMessage]=您的试用已经到期,请购买正式版!
+
+--------------------------------------------------
+[MaxtoCodeInjectClassName]=InfaceMaxtoCode
+[RuntimeMajorVersion]=3
+[RuntimeMinorVersion]=4
+[RuntimeBuild]=4
+[RuntimeSubBuild]=0
+[RuntimeComments]=Your Comments
+[RuntimeCompanyName]=Your CompanyName
+[RuntimeFileDescription]=The file Description
+[RuntimeLegalCopyRight]=(C) CompanyName Corporation.  All rights reserved.
+[RuntimeProductName]=Protector
+
+--------------------------------------------------
+[ConfusionOptions]=M:\ReleaseXencode32\TX_TOOLBOX.dll
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[ParamConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=M:\ReleaseXencode32\TX_VAEntity.dll
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[ParamConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=M:\ReleaseXencode32\TX_VBEntity.dll
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[ParamConfusion]=1
+	[StrongNames]=
+}
+

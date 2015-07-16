@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AxProtectorNet xmlns:wibu="http://wibu.com/2008/AxpnetControlFile/1.0">
+  <CommandLine>
+    <Command>-ci</Command>
+    <Command>-cml10</Command>
+    <Command>-wu0</Command>
+    <Command>-we0</Command>
+    <Command>-eac</Command>
+    <Command>-eec</Command>
+    <Command>-eui</Command>
+    <Command>-emc</Command>
+    <Command>-ui</Command>
+    <Command>-#</Command>
+    <Command>-o:"M:\ReleaseCodeMeter64\TX_BaseKit.dll"</Command>
+    <Command>"M:\ReleaseXencode64\TX_BaseKit.dll"</Command>
+  </CommandLine>
+  <Wupi>
+    <LicenseList Index="1" Name="1">
+      <License>1-1</License>
+    </LicenseList>
+    <License Name="1-1">
+      <Type>CodeMeter</Type>
+      <FirmCode>101730</FirmCode>
+      <ProductCode>1001</ProductCode>
+      <FeatureCode>0</FeatureCode>
+      <MinimumFirmwareVersion>1.0</MinimumFirmwareVersion>
+      <UserData>none</UserData>
+      <MinimumDriverVersion>3.30</MinimumDriverVersion>
+      <Access>StationShare</Access>
+      <SubSystem>LocalLan</SubSystem>
+    </License>
+    <Namespace Name="BridgeCal" Encryption="false">
+    </Namespace>
+    <Namespace Name="CSharpAlgorithm.Algorithm" Encryption="false">
+    </Namespace>
+    <Namespace Name="MTL_Math.DesignTool" Encryption="false" LicenseList="1">
+    </Namespace>
+    <Namespace Name="MTL_Math.GeoObject" Encryption="false" LicenseList="1">
+    </Namespace>
+    <Namespace Name="MTL_Math" Encryption="false">
+    </Namespace>
+    <Namespace Name="TX_TOOLBOX.Command" Encryption="false">
+    </Namespace>
+    <Namespace Name="TX_TOOLBOX.CommonObject.offset" Encryption="false">
+    </Namespace>
+    <Namespace Name="TX_TOOLBOX.OPTION" Encryption="false">
+    </Namespace>
+    <Namespace Name="TX_TOOLBOX.TestCurve" Encryption="false">
+    </Namespace>
+    <Namespace Name="TX_TOOLBOX" Encryption="false">
+
+    </Namespace>
+  </Wupi>
+</AxProtectorNet>
